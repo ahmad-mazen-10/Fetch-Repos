@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Tahoma,Arial;
+}
+
+.container{
+    width: 80%;
+    background-color: #f6f6f6;
+    margin: auto;
+}
+.get-repos{
+    padding: 20px;
+    display: flex;
+    background-color: #eee;
+}
+input{
+width: 100%;
+padding: 15px 20px;
+border: none;
+font-size: 20px;
+height: 54px;
+}
+input:focus{
+outline: 2px solid #800900;
+}
+button{
+    width: 180px;
+    margin-left: 10px;
+    height: 54px;
+    background-color: #800900;
+    color: #fff;
+    line-height: 54px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.show-data{
+    padding: 20px;
+    background-color: #e0e0e0;
+}
+.show-data .repo-box{
+    background-color: #fff;
+    padding: 15px;
+}
+.show-data .repo-box:not(:last-child){
+    margin-bottom: 5px;
+}
+.show-data .repo-box a,
+.show-data .repo-box span{
+    float: right;
+    margin-left: 4px;
+    border-radius: 4px;
+    color: #fff ;
+    font-size: 12px;
+    width: 90px;
+    text-align: center;
+    padding: 4px;
+}
+.show-data .repo-box a{
+text-decoration: none;
+background-color: #800900;
+}
+.show-data .repo-box span{
+background-color: #0096;
+}
